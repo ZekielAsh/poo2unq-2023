@@ -72,7 +72,9 @@ public class Empresa {
 	}
 	
 	public void liquidarSueldos() {
-		
+		this.empleados.
+		stream().
+		forEach(p -> this.recibos.add(new ReciboDeHaberes(p)));
 	}
 	
 }
